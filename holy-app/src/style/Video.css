@@ -1,0 +1,13 @@
+.VidCon {
+  margin-top: 220px;
+  margin-bottom: 100px;
+}
+
+.Video {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}

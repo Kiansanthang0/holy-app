@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.Watch {
+  background: rgba(44, 44, 44, 1);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #eeece8;
+}
+
+.teks {
+  display: block;
+}
+
+.Ticket {
+  margin-top: 110px;
+}
+
+.kiri {
+  background: #3a3a3a;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  margin-left: 20px;
+}
+
+.teksKiri {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  padding-left: 30px;
+}
+
+.teksKiri2 {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 16.6705px;
+  line-height: 20px;
+  padding-left: 30px;
+}
+
+.teksKiri3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.289px;
+  line-height: 17px;
+  padding-left: 30px;
+}
+
+.kanan {
+  background: #3a3a3a;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.teksKanan {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  padding-left: 30px;
+}
+
+.teksKanan2 {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 16.6705px;
+  line-height: 20px;
+  padding-left: 30px;
+}
+
+.teksKanan3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.289px;
+  line-height: 17px;
+  padding-left: 30px;
+}
+
+.price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.4335px;
+  line-height: 26px;
+  color: #eeece8;
+  padding-top: 20px;
+}
+
+.idr {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37.244px;
+  line-height: 45px;
+  color: #f3c76f;
+}
+
+.Watch .buy Button {
+  width: 245px;
+  height: 55px;
+  background: #000000;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  margin-top: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.7799px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Watch .buy Button:hover {
+  background: #000000;
+  color: #f3c76f;
+}
+
+.Watch .watch Button {
+  width: 245px;
+  height: 55px;
+  background: #f3c76f;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  margin-top: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.7799px;
+  line-height: 23px;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.Watch .watch Button:hover {
+  background: #f3c76f;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1300px) {
+  .kiri,
+  .kanan {
+    display: block;
+    padding: 35px;
+    margin: 10px;
+  }
+
+  .WatchImg {
+    justify-content: center;
+  }
+
+  .teksKiri,
+  .teksKiri2,
+  .teksKiri3,
+  .teksKanan,
+  .teksKanan2,
+  .teksKanan3 {
+    padding-left: 0px;
+  }
+
+  .kiri Img {
+    text-align: center;
+  }
+}

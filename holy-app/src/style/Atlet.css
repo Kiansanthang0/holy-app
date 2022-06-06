@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+body {
+  background: rgba(29, 29, 29, 1);
+}
+
+.AtletHeader {
+  background-image: url(../assets/img/BgAtlet.png);
+  height: 982px;
+  background-position: center;
+  background-size: cover;
+}
+
+.Atlet {
+  background: rgba(44, 44, 44, 1);
+}
+
+.AtletLatest {
+  margin: 50px;
+}
+
+.JudulAtlet {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 53px;
+  color: #ffffff;
+  padding-bottom: 20px;
+  border-bottom: 9px solid #f3c76f;
+}
+
+.SubAtlet {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #f3c76f;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.DateAtlet {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.ParagrafAtlet {
+  margin-top: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #eeece8;
+}
+
+.AtletLatestImg {
+  background-image: url(../assets/img/BgAtlet2.png);
+  background-size: cover;
+  background-position: center;
+  height: 345px;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+#OverlayAtlet {
+  background: rgba(29, 29, 29, 0.5);
+  border-radius: 5px;
+  max-height: 345px;
+  width: 100%;
+  height: 100%;
+}
+
+.TeksAtlet {
+  padding-top: 24px;
+  margin-left: 32px;
+}
+
+.TeksImg {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #f3c76f;
+  margin-bottom: 8px;
+}
+
+.TeksImg2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.TeksAtlet2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f3c76f;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: -25px;
+}

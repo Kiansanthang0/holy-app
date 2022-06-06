@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.Latest {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TopLatest {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.TopLatestRight {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.TopLatestLeft {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  padding-left: 15px;
+}
+
+.TopLatestBtn {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.TopLatestBtn:hover {
+  color: #fff;
+}
+
+.TopLatest hr {
+  color: #f3c76f;
+  margin-left: 15px;
+  width: 78%;
+}
+
+#OverlayLatestKiri {
+  background: linear-gradient(180deg, rgba(97, 80, 46, 0.24) 0%, rgba(0, 0, 0, 0.64) 100%);
+  border-radius: 5px;
+}
+
+.LatestKiri {
+  background-image: url(../assets/img/Vicky1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.JudulLatest {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f1f1f1;
+  padding-top: 185px;
+  padding-left: 25px;
+  padding-bottom: 16px;
+}
+
+.SubLatest {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+
+.LKiri hr {
+  color: #f3c76f;
+  margin-left: 25px;
+  width: 80%;
+  min-height: 2px;
+}
+
+.ParagrafLatest {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+.ReadMoreLatest {
+  text-align: right;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f3c76f;
+  padding-right: 24px;
+  padding-bottom: 41px;
+}
+
+.LatestKanan2 {
+  background-image: url(../assets/img/Vicky2.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 32px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+#OverlayLatestKanan2 {
+  background: linear-gradient(180deg, rgba(97, 80, 46, 0.24) 0%, rgba(0, 0, 0, 0.64) 100%);
+  border-radius: 5px;
+}
+
+.JudulLatestKanan2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 55px;
+  padding-left: 24px;
+}
+
+.SubLatestKanan2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  padding-left: 24px;
+  padding-bottom: 14px;
+}
+
+.ParagrafLatestKanan2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-left: 24px;
+  padding-top: 6px;
+}
+
+.ReadMoreLatestKanan {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #f3c76f;
+  padding-right: 16px;
+  text-align: right;
+  padding-bottom: 18px;
+}
+
+.LatestKanan3 {
+  background-image: url(../assets/img/Vicky3.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 15px;
+}

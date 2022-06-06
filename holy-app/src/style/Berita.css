@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.Berita {
+  background-image: url(../assets/img/BgBerita.png);
+  background-position: center;
+  background-size: cover;
+  height: 982px;
+}
+
+#BegeBerita {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  background-size: cover;
+  height: inherit;
+}
+
+.container {
+  display: flex;
+  color: #ffffff;
+}
+
+.landingPage {
+  display: flex;
+}
+
+.JudulBerita {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 84px;
+  color: #ffffff;
+  justify-content: left;
+  padding-left: 45px;
+}
+
+.BeritaButton .TanggalBerita {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  padding: 0px;
+}
+
+.BeritaButton {
+  margin-top: 420px;
+  margin-left: 45px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.BeritaButton .TanggalBerita {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.BeritaButton Button {
+  background: rgba(44, 44, 44, 0.8);
+  backdrop-filter: blur(5px);
+  width: 215px;
+  height: 61px;
+  text-align: center;
+  margin-top: 68px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28.9803px;
+  line-height: 43px;
+  color: #f3c76f;
+  text-decoration: none;
+}
+
+.BeritaButton Button:hover {
+  background: rgba(44, 44, 44, 0.8);
+  color: #f3c76f;
+}
+
+@media screen and (max-width: 750px) {
+  .BeritaButton {
+    margin-top: 250px;
+  }
+}

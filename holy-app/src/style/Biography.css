@@ -1,0 +1,46 @@
+body {
+  background: red;
+}
+
+.BioImg {
+  background-size: 100%;
+  margin-top: 24px;
+}
+
+.ColBio {
+  padding-top: 60px;
+}
+
+.RowBio {
+  border-bottom: 1px solid #666666;
+  padding-bottom: 24px;
+  padding-top: 32px;
+}
+
+.TeksBio1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.TeksBio2 {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.FlexBio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.BioIcon img {
+  margin-right: 20px;
+}

@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.OTP {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.HeaderPop {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #eeece8;
+  margin-top: 40px;
+}
+
+.SubPop {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #eeece8;
+  margin-top: 55px;
+  text-align: center;
+}
+
+.FormPop {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.PopPhoneNumber {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.TeksPopForm {
+  background: transparent !important;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.PopNumber {
+  background-color: inherit;
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 42.8571px !important;
+  line-height: 52px !important;
+  color: #eeece8 !important;
+  width: 60%;
+  margin: auto;
+}
+
+.PopHr {
+  color: #c4c4c4;
+  height: 3px !important;
+  margin-bottom: 10px;
+}
+
+.PopButton {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.PopButton Button {
+  background: #f3c76f;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 315px;
+  height: 72px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+.PopButton Button:hover {
+  background: #f3c76f;
+  color: inherit;
+}
+
+.DownloadPop {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.DownloadPop Button {
+  text-decoration-color: #f3c76f;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f3c76f;
+  text-align: center;
+  border: none;
+}
+
+.DownloadPop Button:hover {
+  color: #f3c76f;
+}
+
+.PopUpButtonDownload {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+/* Verify */
+
+.SubVerify {
+  display: flex;
+  justify-content: center;
+}
+
+.HeaderVerify {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #eeece8;
+  text-align: center;
+  color: #eeece8;
+  margin-top: 70px;
+}
+
+.SubVerify {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #c4c4c4;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.SubVerify .NumberVerify {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f3c76f;
+  margin-left: 15px;
+}
+
+.VerifyHaer {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.VerifyHr {
+  display: flex;
+  margin-bottom: 10px;
+  border-top: 3px solid #c4c4c4;
+  width: 100%;
+  margin: 10px;
+}
+
+.VerifyTime {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #eeece8;
+  margin-top: 35px;
+}
+
+.VerifyBottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.VerifyTeks {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #b9b9b9;
+}
+
+.VerifyBottom Button {
+  text-decoration-color: #f3c76f;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f3c76f;
+  text-align: center;
+  border: none;
+  margin-top: -7px;
+}
+
+.VerifyBottom Button:hover {
+  color: #f3c76f;
+}

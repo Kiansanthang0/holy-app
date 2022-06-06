@@ -1,0 +1,62 @@
+.NavigationBar {
+  background: rgba(29, 29, 29, 0.7);
+  backdrop-filter: blur(20px);
+  min-height: 100px;
+}
+
+.NavigationBar .isi {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavigationBar .isi .teks {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff !important;
+  text-shadow: 0px 1.26027px 1.26027px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.gambar {
+  border-bottom: 2px solid #f3c76f;
+}
+
+.NavigationBar .isi .teks Button {
+  border: 2px solid #f3c76f;
+  border-radius: 5px;
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f3c76f;
+  text-decoration: none;
+}
+
+.NavigationBar .isi .teks Button img {
+  padding-right: 18px;
+  margin-top: -5px;
+}
+
+@media screen and (max-width: 986px) {
+  .NavigationBar .isi {
+    padding-bottom: 20px;
+  }
+
+  .NavigationBar .isi .teks {
+    padding-top: 15px;
+  }
+
+  .NavigationBar .isi .gambar {
+    display: none !important;
+  }
+}

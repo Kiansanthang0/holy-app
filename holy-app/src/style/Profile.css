@@ -1,0 +1,180 @@
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.Main {
+  background: rgba(44, 44, 44, 1);
+  color: #ffffff;
+  padding-bottom: 250px;
+}
+
+.ProfileHeader {
+  background-image: url(../assets/img/ProfileBg.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 520px;
+}
+
+.ProfileImg {
+  margin-top: -90px;
+  margin-left: 30px;
+}
+
+.TopHeader {
+  margin-top: 20px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #ffffff !important;
+}
+
+.NamaProfile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.NomorProfile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #c2c2c2;
+}
+
+.ProfileButton {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.ProfileButton Button {
+  background: #3a3a3a;
+  border-radius: 5px;
+  width: 163px;
+  height: 68px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #f3c76f;
+  text-decoration: none;
+  margin-right: 120px;
+}
+
+.ProfileButton Button:hover {
+  background: #3a3a3a;
+  color: #f3c76f;
+}
+
+.FormProfile {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+.FormProfile2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.TeksForm {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #c2c2c2;
+  padding-bottom: 16px;
+}
+
+.CobaProfile {
+  height: 75px;
+  background-color: #3a3a3a !important;
+  border-radius: 5px;
+  color: #ffffff !important;
+}
+
+.FormButton Button {
+  border: 1px solid #f3c76f;
+  border-radius: 5px;
+  width: 157px;
+  height: 75px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #c2c2c2;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.FormButton Button:hover {
+  background-color: inherit;
+  color: inherit;
+}
+
+#flag {
+  background-image: url(../assets/img/IconIndo.png);
+  background-position: left;
+  background-position-x: 24px;
+  background-repeat: no-repeat;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.SubmitButton {
+  display: flex;
+  justify-content: right;
+  margin-top: 80px;
+}
+
+.CancelButton Button {
+  background: #f06368;
+  border-radius: 5px;
+  width: 180px;
+  height: 67px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.CancelButton Button:hover {
+  background: #f06368;
+  color: #000000;
+}
+
+.SaveButton Button {
+  background: #f3c76f;
+  border-radius: 5px;
+  width: 180px;
+  height: 67px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 32px;
+}
+
+.SaveButton Button:hover {
+  background: #f3c76f;
+  color: #000000;
+}

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.DownloadMain {
+  background: rgba(44, 44, 44, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+  padding-top: 230px;
+  height: 100%;
+}
+
+.downloadHeader {
+  display: flex;
+  justify-content: start;
+  text-transform: uppercase;
+  margin-top: -40px;
+}
+
+.DownloadMain .Judul {
+  padding-top: 140px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #eeece8;
+  padding-left: 24px;
+}
+
+.DownloadMain .Judul2 {
+  padding-top: 140px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #f3c76f;
+  padding-left: 10px;
+}
+
+.DownloadMain .Judul3 {
+  padding-top: 140px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #eeece8;
+  padding-left: 10px;
+}
+
+.ParagrafFooter p {
+  display: flex;
+  justify-content: start;
+  padding-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #eeece8;
+  padding-left: 24px;
+}
+
+.AvailableFooter {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #eeece8;
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+.AvailableButton {
+  display: flex;
+  justify-content: start;
+  text-decoration: none;
+  align-items: center;
+  margin-left: 22px;
+}
+
+.Iphone {
+  background-image: url(../assets/img/DownloadBg.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.Iphone img {
+  padding-top: 40px;
+}
+
+.DownloadSosmed img {
+  padding-left: 30px;
+  margin-right: 40px;
+  float: right;
+  margin-top: 60px;
+}
+
+.DownloadCopyright {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: right;
+  margin-right: -50px;
+  margin-top: 60px;
+}

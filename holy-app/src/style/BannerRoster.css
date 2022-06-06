@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.background {
+  height: 395px;
+  background-image: url(../assets/img/bgBannerRoster.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#overlayBanner {
+  background: rgba(243, 199, 111, 0.4);
+  z-index: 2;
+}
+
+.container {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Roster {
+  height: 395px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.hss {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.rosterHw {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.bannerRosterButton Button {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  width: 280px;
+  height: 80px;
+}
+
+.bannerRosterButton Button:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 770px) {
+  .Roster {
+    height: max-content;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .background {
+    height: fit-content;
+  }
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap");
+
+body {
+  background-color: rgba(44, 44, 44, 1);
+}
+
+.Payment {
+  padding-bottom: 65px;
+}
+
+.JudulPayment {
+  margin-top: 200px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #eeece8;
+}
+
+.SubPayment {
+  margin-top: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #eeece8;
+}
+
+.MemberPayment {
+  margin-top: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #eeece8;
+}
+
+.NamePayment {
+  display: flex;
+  margin-top: 24px;
+}
+
+.MemberName {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #eeece8;
+  width: 60px;
+}
+
+.NameInput {
+  margin-left: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #eeece8;
+}
+
+.PaymentHr {
+  background: #c4c4c4;
+  height: 3px !important;
+  width: 80%;
+  margin-top: 45px;
+}
+
+.Eve {
+  margin-top: 40px;
+}
+
+.EventInformation {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 35px;
+}
+
+.EventPayment {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #eeece8;
+  width: 60px;
+  margin-left: 35px;
+}
+
+.BuyPayment Button {
+  background: #f3c76f;
+  box-shadow: 0px 4.63585px 9.27171px rgba(27, 57, 255, 0.2);
+  border-radius: 5px;
+  width: 180px;
+  height: 43px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.9076px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.BuyPayment Button:hover {
+  background: #f3c76f;
+  color: #000000;
+}
+
+.CancelPayment Button {
+  background: #000000;
+  box-shadow: 0px 4.63585px 9.27171px rgba(27, 57, 255, 0.2);
+  border-radius: 5px;
+  width: 180px;
+  height: 43px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.9076px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.CancelPayment Button:hover {
+  background: #000;
+  color: #ffffff;
+}
+
+.ButtonPayment {
+  display: flex;
+  margin-top: 60px;
+}

@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap");
+
+body {
+  background-color: rgba(44, 44, 44, 1);
+}
+
+.RankingsBg {
+  background-image: url(../assets/img/BgRankings.png);
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: min-content;
+}
+
+.RankingsBg .RangkingsBar {
+  color: #000000;
+}
+
+#OverlayRankings {
+  background: rgba(44, 44, 44, 0.9);
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: min-content;
+  padding-bottom: 100px;
+}
+
+.TeksRankings {
+  padding-top: 180px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.BioRankings {
+  margin-left: 25px;
+}
+
+.JudulRankings {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.SubRankings {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+
+.SubRankings2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+
+.RankingsBar {
+  background-image: url(../assets/img/BgRanking1.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.RankingsBar2 {
+  background-image: url(../assets/img/BgRanking2.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 24px;
+  color: #eeece8;
+}
+
+.RankingsBar3 {
+  background-image: url(../assets/img/BgRanking3.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 24px;
+  color: #eeece8;
+}
+
+.RankingsBar4 {
+  background-image: url(../assets/img/BgRanking4.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 24px;
+  color: #eeece8;
+}
+
+.NumberRankings {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.GreenArrow {
+  text-align: center;
+}
+
+.UpdateRankings {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.ProfileRankings {
+  display: flex;
+}
+
+.NameRankings {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.CountryRankings {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.TeksResult {
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.TeksResult2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.RightArrows {
+  text-align: right;
+}

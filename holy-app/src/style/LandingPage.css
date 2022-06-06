@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.bg {
+  height: 982px;
+  background-image: url(../assets/img/bgEvent.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bgLp {
+  height: 982px;
+  background-image: url(../assets/img/Background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#bege {
+  background: rgba(29, 29, 29, 0.3);
+  z-index: 2;
+  height: inherit;
+}
+
+.container {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.EventRow {
+  padding-top: 320px;
+}
+
+.landingPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.welcome {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+  margin-bottom: 16px;
+}
+
+.hw {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 120px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.welcomeButton Button {
+  background: #0c0c0c;
+  opacity: 0.6;
+  border: 1.93976px solid #f3c76f;
+  border-radius: 29.0964px;
+  width: 267.69px;
+  height: 66.92px;
+  margin-top: 68px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28.9803px;
+  line-height: 43px;
+  color: #f3c76f;
+  text-decoration: none;
+}
+
+.welcomeButton Button:hover {
+  background: #0c0c0c;
+  border: 1.93976px solid #f3c76f;
+  color: #f3c76f;
+}
+
+.welcomeFooter {
+  margin-top: 250px;
+}
+
+.LpFooter {
+  margin-top: 150px;
+}

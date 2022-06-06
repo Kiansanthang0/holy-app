@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.upcoming {
+  background: rgba(44, 44, 44, 1);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #eeece8;
+}
+
+.teks {
+  display: block;
+}
+
+.kiri {
+  background: #3a3a3a;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  margin-left: 20px;
+  margin: 10px;
+}
+
+.teksKiri {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  padding-left: 20px;
+}
+
+.teksKiri2 {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 16.6705px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.teksKiri3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.289px;
+  line-height: 17px;
+  padding-left: 20px;
+}
+
+.kanan {
+  background: #3a3a3a;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  margin: 10px;
+}
+
+.teksKanan {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  padding-left: 20px;
+}
+
+.teksKanan2 {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-weight: 500;
+  font-size: 16.6705px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.teksKanan3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.289px;
+  line-height: 17px;
+  padding-left: 20px;
+}
+
+.price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.4335px;
+  line-height: 26px;
+  color: #eeece8;
+  padding-top: 20px;
+}
+
+.idr {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37.244px;
+  line-height: 45px;
+  color: #f3c76f;
+}
+
+.upcoming .buy Button {
+  width: 235px;
+  height: 55px;
+  background: #000000;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.7799px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.upcoming .buy Button:hover {
+  background: #000000;
+  color: #f3c76f;
+}
+
+.upcoming .watch Button {
+  width: 245px;
+  height: 55px;
+  background: #f3c76f;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.7799px;
+  line-height: 23px;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.upcoming .watch Button:hover {
+  background: #f3c76f;
+  color: #ffffff;
+}
+
+.ErHeader {
+  text-align: center;
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+.TeksEr {
+  display: flex;
+  margin-left: 20px;
+}
+
+.TeksEr1 {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #c4c4c4;
+  width: 70px;
+}
+
+.TeksEr2 {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #c4c4c4;
+  margin-left: 20px;
+}
+
+.TeksErr {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.TeksErr1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  width: 70px;
+}
+
+.TeksErr2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-left: 32px;
+}
+
+.upcoming .watchEr Button {
+  width: 225px;
+  height: 55px;
+  background: #f3c76f;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.7799px;
+  line-height: 23px;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.upcoming .watchEr Button:hover {
+  background: #f3c76f;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1300px) {
+  .TeksEr,
+  .TeksErr,
+  .TeksEr1,
+  .TeksEr2,
+  .watchEr {
+    margin-left: 0px;
+  }
+}

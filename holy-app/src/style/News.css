@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+body {
+  background-color: rgba(44, 44, 44, 1);
+}
+
+.News {
+  margin-top: 190px;
+  display: flex;
+}
+
+.JudulNews {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.SubNews {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+}
+
+.Sort {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-top: 95px;
+  border-bottom: 1px solid #f3c76f;
+}
+
+.kartu {
+  width: 100%;
+}
+
+.Card {
+  border: none !important;
+  margin: 20px;
+  background-color: transparent !important;
+  outline: none;
+}
+
+Card img {
+  border-radius: 50px;
+}
+
+.CardDate {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #c2c2c2;
+  padding-top: 15px;
+}
+
+.TeksKategori {
+  color: #f3c76f;
+}
+
+.JudulCard {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  color: #f1f1f1;
+  margin-top: 8px;
+}
+
+.SubCard {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #c2c2c2;
+  margin-top: 8px;
+}
+
+.CardButton Button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f3c76f !important;
+  text-decoration: none;
+}
+
+.CardButton:hover {
+  color: #f3c76f;
+}

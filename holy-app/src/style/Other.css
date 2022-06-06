@@ -1,0 +1,38 @@
+body {
+  background: rgba(44, 44, 44, 1);
+}
+
+.Other {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.Other img {
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.OtherRow {
+  padding-top: 64px;
+}
+
+.OtherTeks1 {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.OtherTeks2 {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #f1f1f1;
+  padding-bottom: 32px;
+}

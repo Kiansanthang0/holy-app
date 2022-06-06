@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(44, 44, 44, 1);
+}
+
+.MainReg {
+  background: rgba(44, 44, 44, 1);
+  color: #ffffff;
+}
+
+.formReg {
+  padding: 10px;
+}
+
+.CobaRegister {
+  height: 55px;
+  background-color: #3a3a3a !important;
+  border-radius: 5px;
+  color: #ffffff !important;
+}
+
+.JudulRegister {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  padding-top: 180px;
+  margin-bottom: -50px;
+}
+
+.RadioRegister {
+  display: flex;
+  margin-top: 10px;
+}
+
+#inline-radio-2 {
+  margin-left: 30px;
+}
+
+.TeksRadio {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.TeksRadio label {
+  margin-left: 10px;
+}
+
+.RegisterBottom {
+  margin-left: 5px;
+}
+
+.RegisterCb {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.RegisterLink {
+  text-decoration: none;
+  color: #f3c76f;
+}
+
+.RegisterLink:hover {
+  text-decoration-color: #f3c76f;
+  color: #f3c76f;
+}
+
+.RegisterButton Button {
+  width: 100%;
+  background-color: #f3c76f;
+  color: #000000;
+  font-size: 20px;
+  border: none !important;
+  margin-bottom: 170px;
+}
+
+.RegisterButton Button:hover {
+  width: 100%;
+  background-color: #f3c76f;
+  color: #fff;
+  font-size: 20px;
+  border: none !important;
+}
